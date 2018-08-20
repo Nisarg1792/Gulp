@@ -6,17 +6,17 @@ Steps to follow:
 1) install node.js 
  >>> open node commands prompt
 
-2) Run command > sudo npm install gulp -g (only mac users need sudo..windows without sudo)
+2) Run command > sudo npm install gulp -g (only mac users need sudo..windows without sudo)                                                  
   ########### Copy ############### 
 
 3) create a gulp project - for that create a folder
  >>> set path to that folder from cmd prompt
 
-4) Run command > npm init (commands create you package.json for your project)
+4) Run command > npm init (commands create you package.json for your project)                                                              
   ########### Copy ###############  
   package created
 
-5) Run command > npm install gulp --save-dev (installing gulp into your project)
+5) Run command > npm install gulp --save-dev (installing gulp into your project)                                                             
   ########### Copy ############### 
 
 6) go to project folder and add a file called gulfile.js
