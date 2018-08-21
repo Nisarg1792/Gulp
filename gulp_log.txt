@@ -1,0 +1,286 @@
+Your environment has been set up for using Node.js 8.11.4 (x64) and npm.
+
+C:\Users\npatel>npm install gulp -g
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN rm not removing C:\Users\npatel\AppData\Roaming\npm\gulp.cmd as it wasn't installed by C:\Users\npatel\AppData\Roaming\npm\node_modules\gulp
+npm WARN rm not removing C:\Users\npatel\AppData\Roaming\npm\gulp as it wasn't installed by C:\Users\npatel\AppData\Roaming\npm\node_modules\gulp
+C:\Users\npatel\AppData\Roaming\npm\gulp -> C:\Users\npatel\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js
++ gulp@3.9.1
+added 12 packages, removed 29 packages, updated 19 packages and moved 3 packages in 12.198s
+
+
+
+C:\Users\npatel\Desktop>cd gulp-test
+
+C:\Users\npatel\Desktop\gulp-test>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (gulp-test) GulpTest
+Sorry, name can no longer contain capital letters.
+package name: (gulp-test) gulptest
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\npatel\Desktop\gulp-test\package.json:
+
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) yes
+
+C:\Users\npatel\Desktop\gulp-test>npm install gulp --save-dev
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp@3.9.1
+added 253 packages in 14.513s
+
+C:\Users\npatel\Desktop\gulp-test>gulp hello
+[15:14:39] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[15:14:39] Starting 'hello'...
+Hello Zell
+[15:14:39] Finished 'hello' after 470 µs
+
+C:\Users\npatel\Desktop\gulp-test>gulp simple
+[15:19:49] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[15:19:49] Starting 'simple'...
+Hello Zell
+[15:19:49] Finished 'simple' after 543 µs
+
+
+
+C:\Users\npatel\Desktop\gulp-test>npm install gulp-sass --save-dev
+
+> node-sass@4.9.3 install C:\Users\npatel\Desktop\gulp-test\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.9.3/win32-x64-57_binding.node
+Download complete..] - :
+Binary saved to C:\Users\npatel\Desktop\gulp-test\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Caching binary to C:\Users\npatel\AppData\Roaming\npm-cache\node-sass\4.9.3\win32-x64-57_binding.node
+
+> node-sass@4.9.3 postinstall C:\Users\npatel\Desktop\gulp-test\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Users\npatel\Desktop\gulp-test\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-sass@4.0.1
+added 176 packages in 20.424s
+
+
+
+
+
+C
+
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp scss
+[15:40:49] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[15:40:49] Starting 'scss'...
+[15:40:49] Finished 'scss' after 23 ms
+
+
+
+
+
+C:\Users\npatel\Desktop\gulp-test>npm install gulp-scss --save-dev
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-scss@1.4.0
+added 6 packages in 6.047s
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp sass
+[15:49:38] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[15:49:38] Starting 'sass'...
+[15:49:38] Finished 'sass' after 22 ms
+
+
+
+
+
+
+
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp sass
+[16:06:23] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[16:06:23] Starting 'sass'...
+[16:06:23] Finished 'sass' after 41 ms
+
+
+
+
+
+C:\Users\npatel\Desktop\gulp-test>npm install --save-dev gulp-autoprefixer
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-autoprefixer@5.0.0
+added 13 packages in 5.837s
+
+
+C:\Users\npatel\Desktop\gulp-test>npm install --save-dev gulp-prefix
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-prefix@0.0.15
+added 27 packages in 8.234s
+
+
+C:\Users\npatel\Desktop\gulp-test>npm install --save-dev gulp-concat
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-concat@2.6.1
+added 13 packages in 4.444s
+
+C:\Users\npatel\Desktop\gulp-test>gulp style
+[16:12:24] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[16:12:24] Starting 'style'...
+[16:12:24] Finished 'style' after 41 ms
+
+
+
+C:\Users\npatel\Desktop\gulp-test>npm install --save-dev gulp-minify-css
+npm WARN deprecated gulp-minify-css@1.2.4: Please use gulp-clean-css
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-minify-css@1.2.4
+added 11 packages in 5.544s
+
+C:\Users\npatel\Desktop\gulp-test>npm install --save-dev gulp-minify-css
+npm WARN deprecated gulp-minify-css@1.2.4: Please use gulp-clean-css
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-minify-css@1.2.4
+updated 1 package in 3.347s
+
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp styles
+[16:18:26] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[16:18:26] Starting 'styles'...
+[16:18:26] Finished 'styles' after 51 ms
+
+
+C:\Users\npatel\Desktop\gulp-test>npm install --save-dev gulp-uglify
+npm WARN gulptest@1.0.0 No description
+npm WARN gulptest@1.0.0 No repository field.
+
++ gulp-uglify@3.0.1
+added 7 packages in 6.128s
+
+C:\Users\npatel\Desktop\gulp-test>gulp js
+[16:26:09] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[16:26:09] Starting 'js'...
+[16:26:09] Finished 'js' after 128 ms
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp styles
+[16:29:31] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[16:29:31] Starting 'styles'...
+[16:29:31] Finished 'styles' after 52 ms
+
+C:\Users\npatel\Desktop\gulp-test>gulp js
+[16:29:53] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[16:29:53] Starting 'js'...
+
+
+
+
+
+
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp error
+[17:02:02] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[17:02:02] Starting 'error'...
+[17:02:02] Finished 'error' after 10 ms
+
+C:\Users\npatel\Desktop\gulp-test>gulp default
+[17:02:09] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[17:02:09] Starting 'default'...
+[17:02:09] Finished 'default' after 8.27 ms
+
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp watch
+[17:09:47] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[17:09:47] Starting 'sass'...
+[17:09:47] Starting 'style'...
+[17:09:47] Finished 'sass' after 37 ms
+[17:09:47] Finished 'style' after 43 ms
+[17:09:47] Starting 'watch'...
+[17:09:47] Finished 'watch' after 11 ms
+[17:10:33] Starting 'sass'...
+[17:10:33] Finished 'sass' after 9.05 ms
+[17:10:36] Starting 'sass'...
+[17:10:36] Finished 'sass' after 15 ms
+[17:10:44] Starting 'sass'...
+[17:10:44] Finished 'sass' after 18 ms
+
+
+
+C:\Users\npatel\Desktop\gulp-test>gulp watch
+[17:11:28] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[17:11:28] Starting 'sass'...
+[17:11:28] Starting 'style'...
+[17:11:28] Finished 'sass' after 30 ms
+[17:11:28] Finished 'style' after 26 ms
+[17:11:28] Starting 'watch'...
+[17:11:28] Finished 'watch' after 13 ms
+^CTerminate batch job (Y/N)? y
+
+C:\Users\npatel\Desktop\gulp-test>gulp styles
+[17:12:17] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[17:12:17] Starting 'styles'...
+[17:12:17] Finished 'styles' after 44 ms
+
+C:\Users\npatel\Desktop\gulp-test>gulp default
+[10:18:25] Using gulpfile ~\Desktop\gulp-test\gulpfile.js
+[10:18:25] Starting 'default'...
+[10:18:25] Finished 'default' after 9.24 ms
+
+C:\Users\npatel\Desktop\gulp-test>

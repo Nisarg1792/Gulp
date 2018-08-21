@@ -1,0 +1,31 @@
+> install node.js 
+> open node commands prompt
+
+Run command > sudo npm install gulp -g (only mac users need sudo..windows without sudo)
+########### Copy ############### 
+
+> create a gulp project - for that create a folder (ex. on desktop)
+
+> set path to that folder from cmd prompt
+
+Run command > npm init (commands create you package.json for your project)
+
+########### Copy ############### 
+package created
+
+Run command > npm install gulp --save-dev (installing gulp into your project)
+########### Copy ############### 
+
+
+> go to project folder and add a file called gulfile.js
+@@ code @@
+
+Run command > npm install gulp-sass --save-dev ( To compile Sass into css with the help of plugin, install gulp-sass )
+Note > make sure it's scss extention but plugin is sass..
+     > compile more than one .scss file into CSS using sass plugin
+
+
+
+
+
+
