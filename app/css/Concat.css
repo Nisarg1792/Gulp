@@ -1,0 +1,22 @@
+nav li {
+  display: inline-block; }
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.testing {
+  width: 71.42857%; }
+
+.test {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.test2 {
+  margin-top: 5px; }
